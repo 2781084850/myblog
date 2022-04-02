@@ -2,7 +2,7 @@
 
 - 入门
 
-  - [安装配置](Docs/GettingStarted/install.md)
+  - [安装使用](Docs/GettingStarted/install.md)
   - [书写规范](Docs/GettingStarted/writtenForm.md)
   - [版本切换](Docs/GettingStarted/versionSwitch.md)
 
@@ -23,7 +23,6 @@
 
   - [菜单数据](Docs/Guide/menuData.md)
   - [版本映射](Docs/Guide/versionMapping.md)
-  - [Markdown](Docs/Guide/markdown.md)
   - [highlight](Docs/Guide/highlight.md)
 
 - [Changelog](Docs/changelog.md)

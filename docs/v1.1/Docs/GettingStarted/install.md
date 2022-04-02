@@ -10,7 +10,9 @@
 
 进入管理后台：[管理后台](https://i.cnblogs.com/Configure.aspx)
 
-会看到如下设置页面：
+### 设置
+
+设置页面：
 
 <img src="./Images/install_01.png" width="750" />
 
@@ -21,6 +23,16 @@
 - 禁用模板默认CSS
 - 博客侧边栏公告
 - 页脚Html代码
+
+### 选项
+
+选项页面：
+
+<img src="./Images/install_07.png" width="750" />
+
+本主题当前页面所涉及的配置有：
+
+- 控件显示设置/公告 [#86](https://github.com/BNDong/Cnblogs-Theme-SimpleMemory/issues/86)
 
 ## 获取需要使用的版本
 
@@ -59,13 +71,13 @@ CSS代码位置：```/src/style/base.min.css``` 拷贝此文件代码至页面�
 ```html
 <script type="text/javascript">
     window.cnblogsConfig = {
-        GhVersions    : 'v1.2.3', // 版本
+        GhVersions    : 'v1.2.5', // 版本
         blogUser      : "userName", // 用户名
         blogAvatar    : "https://xxxx.png", // 用户头像
         blogStartDate : "2016-11-17", // 入园时间，年-月-日。入园时间查看方法：鼠标停留园龄时间上，会显示入园时间
     }
 </script>
-<script src="https://cdn.jsdelivr.net/gh/BNDong/Cnblogs-Theme-SimpleMemory@v1.2.3/src/script/simpleMemory.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/BNDong/Cnblogs-Theme-SimpleMemory@v1.2.5/src/script/simpleMemory.min.js"></script>
 ```
 
 !> 注意：引入的文件 simpleMemory.min.js 版本需要与配置 window.cnblogsConfig.GhVersions 一致！
@@ -73,6 +85,10 @@ CSS代码位置：```/src/style/base.min.css``` 拷贝此文件代码至页面�
 详细配置参考相关[文档](https://bndong.github.io/Cnblogs-Theme-SimpleMemory/v1.1/#/Docs/Customization/config)。
 
 ![install_04](../../Images/install_04.png)
+
+### 开启公告控件
+
+博客设置 --> 控件显示设置 --> 勾选公告
 
 配置完成保存即可成功应用博皮！
 
